@@ -10,5 +10,6 @@ end
 
 #solve with .collect
 def reverse_each_word(string)
-(string.split(" ")).collect {|i| i.reverse}
+array = (string.split(" ")).collect {|i| i.reverse}
+array.join(" ")
 end
